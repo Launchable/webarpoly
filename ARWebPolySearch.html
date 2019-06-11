@@ -51,9 +51,9 @@
 			#viewer {
 				position: absolute;
 				top: 15%;
-				left: 35%;
+				left: 25%;
 				right: 5%;
-				bottom: 45%;
+				bottom: 5%;
 			}
 			#info {
 				position: absolute;
@@ -99,7 +99,7 @@
 			const WIDTH = viewer.offsetWidth;
 			const HEIGHT = viewer.offsetHeight;
 
-			var camera = new THREE.PerspectiveCamera( 90, WIDTH / HEIGHT, 0.01, 100 );
+			var camera = new THREE.PerspectiveCamera( 75, WIDTH / HEIGHT, 0.01, 100 );
 			camera.position.set( 5, 3, 5 );
 			camera.lookAt( 0, 1.5, 0 );
 
